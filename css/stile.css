@@ -1,0 +1,104 @@
+body {
+   font-size: 20px;
+}
+
+.wrapper {
+    /*width: 1000px;*/
+    height: auto;
+    margin: 0px auto;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: #167443;
+    color: black;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: #167443;
+    color: black;
+}
+
+.header_content, .footer_content {
+    min-width: 600px;
+    max-width: 1000px;
+    height: 100%;
+    margin: 0px  auto;
+}
+
+.header_left, .footer_left {
+    height: 80%;
+    float: left;
+    margin: 5px auto;
+}
+
+.header_right, .footer_right {
+    height: 80%;
+    float: right;
+    margin: 5px auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: orange;
+    text-decoration: none;
+}
+
+h1, h2 {
+    margin: 0px 0px;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+.content {
+    width: 600px;
+    margin: 100px auto 200px auto;
+}
+
+.inline, .profile_visit {
+    display: inline-block;
+}
+
+.btn_to_link {
+    color: blue;
+    font-size: 16px;
+    background:none!important;
+    border:none; 
+    padding:0!important;
+    /*margin-left: 5px;*/   
+    /*border is optional*/
+    border-bottom:1px solid #444;
+    cursor: pointer; 
+}
+
+.btn_to_link:hover {
+    color: red;
+    border-bottom:1px solid red;
+}
+
+.panel-footer {
+    font-size: 16px;
+}

@@ -1,0 +1,1 @@
+var path_to_project = 'http://localhost/133%20&%20151/Guestbook/';

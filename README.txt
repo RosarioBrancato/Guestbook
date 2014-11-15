@@ -1,0 +1,3 @@
+- Im Ordner constant in der Datei js_constants.js die Variabel anpassen.
+- Die Website wurde hauptsächlich für Google Chrome entwickelt.
+- Im Ordner "utils": Lesen sie den neusten MySQL-Dump ein und führen Sie die SQL-Befehle in der Datei "userroles.sql" aus.
